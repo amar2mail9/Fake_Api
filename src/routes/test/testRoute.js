@@ -8,5 +8,6 @@ const testRoute = express.Router()
 
 // object.get(routenem,midleware,handlefuction)
 testRoute.get('/test/orders',testControllers)
+testRoute.post('/test/orders',testControllers)
 
 exports.testRouteController = testRoute
